@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="590.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Admin.Dialog.TypeDialog">
+   <children>
+      <TextField fx:id="name" layoutX="159.0" layoutY="119.0" prefHeight="51.0" prefWidth="369.0" promptText="工种名称" />
+      <TextField fx:id="level" layoutX="159.0" layoutY="207.0" prefHeight="51.0" prefWidth="369.0" promptText="工种等级" />
+      <TextField fx:id="wage" layoutX="159.0" layoutY="313.0" prefHeight="51.0" prefWidth="369.0" promptText="工种工资" />
+      <Button onAction="#sure" layoutX="304.0" layoutY="449.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="90.0" text="确认" />
+   </children>
+</AnchorPane>

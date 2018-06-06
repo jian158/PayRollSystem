@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="610.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Admin.Dialog.SubsidyDialog">
+   <children>
+      <TextField fx:id="type" layoutX="173.0" layoutY="209.0" prefHeight="66.0" prefWidth="351.0" promptText="加班类别" />
+      <TextField fx:id="money" layoutX="173.0" layoutY="343.0" prefHeight="66.0" prefWidth="351.0" promptText="津贴金额" />
+      <Button layoutX="279.0" layoutY="493.0" mnemonicParsing="false" onAction="#sure" prefHeight="57.0" prefWidth="119.0" text="确认" />
+      <TextField fx:id="jtmc" layoutX="173.0" layoutY="64.0" prefHeight="66.0" prefWidth="351.0" promptText="加班名称" />
+   </children>
+</AnchorPane>
